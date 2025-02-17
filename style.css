@@ -4,3 +4,17 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing: border-box;
 }
+
+body{
+    background: #080808;
+    color: #fff;
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/screen\ shot\ headshot.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}

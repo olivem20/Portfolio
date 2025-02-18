@@ -150,3 +150,7 @@ ids use # and class use . */
 .tab-contents{
     display: none;
 }
+
+.tab-contents.active-tab{
+    display: block;
+}

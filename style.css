@@ -173,9 +173,28 @@ ids use # and class use . */
     font-size: 13px;
     font-weight: 300;
     border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
 }
 
 .services-list div i{ /*use this for if i want image app icon, go back to awesome font, not in yet*/
     font-size: 50px;
     margin-bottom: 30px;
+}
+
+.services-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.services-list div a{
+    text-decoration: line;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.services-list div:hover{
+    background: #28b509;
+    transform: translateY(-10px);
 }

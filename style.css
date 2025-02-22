@@ -150,6 +150,9 @@ ids use # and class use . */
     color: #28b509;
     font-size: 18px;
 }
+.tab-contents ul li i2{
+    font-size: 11px;
+}
 
 .tab-contents ul li ul{
     list-style-type: disc;
@@ -170,6 +173,7 @@ ids use # and class use . */
 .tab-contents ul li ul li span i{
     font-style: italics;
 }
+
 
 .tab-contents{
     display: none;

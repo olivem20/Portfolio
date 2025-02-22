@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Poppins', sans-serif;
+    font-family: Tahoma, sans-serif;
+    /* font-family:'Poppins', sans-serif; */
     box-sizing: border-box;
 }
 html{
@@ -142,12 +143,28 @@ ids use # and class use . */
 
 .tab-contents ul li{
     list-style: none;
-    margin: 10px 0;
+    margin: 1px 0;
 }
 
 .tab-contents ul li span{
     color: #28b509;
-    font-size: 14px;
+    font-size: 18px;
+}
+
+.tab-contents ul li ul{
+    list-style-type: disc;
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.tab-contents ul li ul li{
+    list-style-type: disc;
+}
+
+.tab-contents ul li ul li span{
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
 }
 
 .tab-contents{
@@ -369,7 +386,7 @@ nav .fa-solid{
         background-image: url(images/phone-background.png);
     }
     .header-text{
-        margin-top: 100%;
+        margin-top: 90%;
         font-size: 16px;
     }
     .header-text h1{

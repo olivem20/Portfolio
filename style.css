@@ -167,6 +167,10 @@ ids use # and class use . */
     font-weight: bold;
 }
 
+.tab-contents ul li ul li span i{
+    font-style: italics;
+}
+
 .tab-contents{
     display: none;
 }

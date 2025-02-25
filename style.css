@@ -247,7 +247,7 @@ ids use # and class use . */
 }
 
 .work img{
-    width: 70%;
+    width: 100%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
